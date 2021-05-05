@@ -10,3 +10,11 @@ module.exports = (eleventyConfig) => {
         passthroughFileCopy: true
     }
 }
+module.exports = {
+    dir: {
+        input: "src",
+        output: "docs"
+    }
+
+};
+
