@@ -12,9 +12,8 @@ module.exports = (eleventyConfig) => {
 }
 module.exports = {
     dir: {
-        input: "src",
         output: "docs"
     }
 
-};
+}
 
