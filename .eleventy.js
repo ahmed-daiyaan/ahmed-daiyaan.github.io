@@ -7,8 +7,13 @@ module.exports = (eleventyConfig) => {
 module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy('logo')
     return {
-        passthroughFileCopy: true,
-        pathPrefix: "/silly-eleventy-demo/"
+        passthroughFileCopy: true
+        
     }
 }
+module.exports =
+ {
+     pathPrefix: "/silly-eleventy-demo/"
+ }
+
 
