@@ -18,18 +18,18 @@
     color: rgb(2, 2, 2);
     text-decoration: none;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 48px;
+    font-size: 18px;
+    line-height: 32px;
     padding: 0 15px;
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 #primary_nav_wrap ul a:hover {
     display: block;
-    color: rgb(67, 24, 207);
+    color: rgb(73, 143, 223);
     text-decoration: none;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 48px;
+    font-size: 18px;
+    line-height: 32px;
     padding: 0 15px;
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
@@ -43,19 +43,21 @@
 }
 
 #primary_nav_wrap ul li.current-menu-item {
-    background: rgba(65, 173, 236, 0.322);
-    border-radius: left;
+    background: rgb(255, 0, 144);
+   
+}
+#primary_nav_wrap ul li.current-menu-item a {
+   color: #fff;
+  
 }
 
 #primary_nav_wrap ul li:hover {
     background: #f6f6f6;
-    color: aquamarine;
-    
 }
 header{
     display: flex;
     
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 0px 15%;
 }
