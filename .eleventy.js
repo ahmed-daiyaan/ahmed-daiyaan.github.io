@@ -10,3 +10,9 @@ module.exports = (eleventyConfig) => {
         passthroughFileCopy: true
     }
 }
+
+ return {
+     pathPrefix: "/silly-eleventy-demo/"
+ }
+
+
