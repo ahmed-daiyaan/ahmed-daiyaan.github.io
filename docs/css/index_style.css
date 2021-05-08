@@ -1,20 +1,9 @@
 :root {
-    /* --background-color: #ffffff;
-    --header-color: #f2f7f9;
-    --blog-background: #f2f7f9;
-    --text-color: #0e0f19;
-    --blog-shadow: #c8a9c2;
-    --blog-border: #0e0f19; */
     --primary-pink: #f43059;
-    /* --blog-title: #ff38a9;
-    --secondary-pink: #f194c9;
-    --title-main: #0e0f19;
-    --title-shadow: #ffcdff; */
-
 }
 
 html[data-theme='light'] {
-    --header-color: #f2f7f9;
+    --header-color: #fae5fa;
     --background-color: #ffffff;
     --text-color: #0e0f19;
     --blog-background: #f2f7f9;
@@ -37,7 +26,7 @@ html[data-theme='dark'] {
 }
 
 .logo_text {
-    padding-left: 3%;
+    margin-left: 3%;
     font-size: 2em;
     align-self: center;
 
@@ -117,7 +106,7 @@ html[data-theme='dark'] {
 
 
 #header {
-    background-color: var(--header-color);
+    background-color: var(--blog-background);
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -160,8 +149,87 @@ html[data-theme='dark'] {
     border-radius: 0px 0px 5px 5px;
     color: var(--background-color);
 }
+.titlePosition {
+    
+    margin-top: 2.5%;
+    text-align: left;
+    margin-right: 25%;
+    margin-left: 5%;
+
+}
+.indexTitlePosition{
+
+    margin-top: 2.5%;
+    text-align: left;
+    margin-right: 25%;
+    margin-left: 5%;
+    /* padding-bottom: 2%; */
+}
+.indexSubtitlePosition{
+
+    margin-top: 1.5%;
+    text-align: left;
+    margin-right: 55%;
+    margin-left: 5%;
+    
+}
+.indexSubtitle{
+    
+    font-size: 2em;
+    border-radius: 5px;
+    text-align: left;
+    color: var(--title-main);
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.latest_posts{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+.postTitle a{
+    
+    font-size: 1.3em;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    /* height: 12vh;
+    line-height: 12vh; */
+    color: var(--text-color);
+    /* text-shadow: 4px 4px 0px var(--title-shadow); */
+    font-family: 'Poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    font-weight: 1000;
+}
+.postLink{
+text-decoration: none;
+}
+.postDate{
+    text-align: right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px;
+}
+.postDescription{
+    font-family: 'Poppins' ;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
 #mainTitle {
     font-size: 3em;
+    border-radius: 5px;
+    text-align: center;
+    /* height: 12vh;
+    line-height: 12vh; */
+    color: var(--title-main);
+    text-shadow: 4px 4px 0px var(--title-shadow);
+    font-family: Poppins;
+    font-weight: 700;
+}
+#mainIndexTitle{
+    font-size: 5em;
     border-radius: 5px;
     text-align: center;
     height: 12vh;
@@ -181,28 +249,71 @@ html[data-theme='dark'] {
 body {
     background-color: var(--background-color);
 }
-
-
-
-.titlePosition {
-
-    padding-top: 2.5%;
-    text-align: left;
-    padding-right: 25%;
-    padding-left: 5%;
-
+a{
+    text-decoration: none;
 }
+.link{
+    font-family: 'Poppins', sans-serif;
+    border-bottom: .5px solid #909090;
+    display: inline-block;
+    position: relative;
+}
+.link span{
+    color: var(--text-color);
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+    /* stext-transform: uppercase; */
+    text-align: left;
+    padding: 3px;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+.link span:hover{ color: var(--primary-pink); }
+.link:before{
+    
+    content: '';
+    height: 3px;
+    width: 30%;
+    background-color: var(--primary-pink);
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition:all 0.3s ease 0s;
+}
+.link:hover:before{ width: 100%; }
+@media only screen and (max-width: 990px){
+    .link span{ font-size: 20px; }
+}
+@media only screen and (max-width: 767px){
+    .link{ margin-bottom: 20px; }
+}
+
+
 
 .center_blog_post {
     border-radius: 10px;
     width: 70%;
     padding-top: 3%;
     padding-left: 5%;
-    padding-right: 20%;
+    padding-right: 25%;
     padding-bottom: 5%;
 }
-
-
+.center-about{
+    width: 50%;
+   
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.about{
+    font-family: 'Open Sans';
+    height: 300px;
+    padding: 5%;
+    background-color: var(--header-color);
+    box-shadow: 10px 10px var(--primary-pink);
+    border-right: 2px solid var(--primary-pink);
+}
 
 .mainPost {
     border: 2px solid var(--text-color);
@@ -235,7 +346,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     border-radius: 0px 0px 10px 2px;
     color: white;
-    font-size: 15px;
+    font-size: 1.5em;
     font-weight: 800;
     letter-spacing: 0.5px;
     padding: 14px 10px 8px;
