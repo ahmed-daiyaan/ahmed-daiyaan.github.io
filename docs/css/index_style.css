@@ -172,6 +172,7 @@ html[data-theme='dark'] {
     text-align: left;
     margin-right: 25%;
     margin-left: 5%;
+    margin-bottom: 1%;
 
 }
 .indexTitlePosition{
@@ -433,7 +434,7 @@ a{
     font-size: 1.0em;
     font-weight: 800;
     letter-spacing: 0.5px;
-    padding: 1.6em 10px 8px;
+    padding: 1.8vh 10px 8px;
     margin: -10px 0 18px;
     display: inline-block;
     position: relative;
@@ -606,8 +607,9 @@ button{
     
     }
     .mainPost .title{
-        font-size: 2.5vw;
-        margin: -25px 0px 18px;
+        font-size: 2.7vw;
+        padding: 2.4vh 10px 8px;
+        margin: -1.5vh 0px 18px;
         
     }
      .link span{
