@@ -176,7 +176,7 @@ html[data-theme='dark'] {
 }
 .indexTitlePosition{
 
-    margin-top: 2.5%;
+    margin-top: 3.5%;
     text-align: left;
     margin-right: 25%;
     margin-left: 5%;
@@ -184,11 +184,11 @@ html[data-theme='dark'] {
 }
 .indexSubtitlePosition{
 
-    margin-top: 1.5%;
+    margin-top: 2.5%;
     text-align: left;
     margin-right: 55%;
     margin-left: 5%;
-    
+    margin-bottom: 1%;
 }
 .indexSubtitle{
     
@@ -235,7 +235,7 @@ text-decoration: none;
     font-size: 1.2em;
 }
 #mainTitle {
-    font-size: 3em;
+    font-size: 2.7em;
     border-radius: 5px;
     text-align: center;
     /* height: 12vh;
@@ -265,6 +265,7 @@ text-decoration: none;
 
 body {
     background-color: var(--background-color);
+    margin: 0px;
 }
 a{
     text-decoration: none;
@@ -301,15 +302,8 @@ a{
     transition:all 0.3s ease 0s;
 }
 .link:hover:before{ width: 100%; }
-@media only screen and (max-width: 990px){
-    .link span{ font-size: 20px; }
-}
-@media only screen and (max-width: 767px){
-    .link{ margin-bottom: 20px; }
-}
-footer .link span{
-    font-size: 1em;
-}
+
+
 .btnSize{
     margin-left: 5%;
     margin-top: 2%;
@@ -389,17 +383,15 @@ footer .link span{
 .btn.green:after{
     background: #79d799;
 }
-@media only screen and (max-width: 767px){
-    .btn{ margin-bottom: 20px; }
-}
+
 
 
 .center_blog_post {
     border-radius: 10px;
-    width: 70%;
+    width: 75%;
     padding-top: 3%;
     padding-left: 5%;
-    padding-right: 25%;
+    padding-right: 0%;
     padding-bottom: 5%;
 }
 
@@ -491,7 +483,8 @@ button{
     border: none; background: none;
 }
 .darkModeBg{
-    padding-top: 6px; background-color: pink;  
+    padding-top: 6px;
+     background-color: pink;  
    
 }
 
@@ -499,23 +492,33 @@ button{
 .darkModeIcon{
     
     padding: 7px 10px 5px;
-    height:20px;
-    width:20px;
+    height:30px;
+    width:35px;
 }
 
 .footerPosition{
-    
-    background-color: var(--blog-background);
+     border:1px black solid;
+    position:relative;
+    /* top: 103vh; */
+    width: 100%;
     margin: none;
+    /* height: 3vh; */
 }
 .footer{
+    /* height:3vh; */
+     background-color: var(--blog-background);
     margin:none;
     color: var(--text-color);
     /* margin: 3vw 0vw; */
-    /* padding-bottom: 2%; */
+    padding-bottom: 2%;
+    bottom: 0;
     padding-top: 2%;
     text-align: center;
     font-family: Poppins,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
 }
 
 .footer .link span{
@@ -527,15 +530,15 @@ button{
 @media screen and (max-width : 480px) {
   .center_blog_post{
       width:90%;
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-left: 10%;
+      padding-right: 0%;
       padding-top: 6vw;
   }
   #navBar ul a{
       font-size: 11px;
       
-      line-height: auto;
-      padding: 0px 2px;
+      line-height: 24px;
+      padding: 0px 5px;
   }
   #mainTitle{
       text-shadow: 2px 2px 0px var(--title-shadow);
@@ -548,6 +551,7 @@ button{
     height: 37px;
     width: 37px;
   }
+ 
   .logo_text{
       font-size: 0.8em;
   }
@@ -557,6 +561,10 @@ button{
     margin-right: 3vw;
 
     }
+    .mainPost .title.specialTitle{
+    font-size: 1.1em;
+    
+}
     #mainIndexTitle{
         font-size:2.4em;
     }
@@ -585,11 +593,28 @@ button{
         /* top: -1.5vw; */
         
     }
-    
+     .link span{
+    font-size: 1em;
+
+
+}
+    .postDescription{
+    font-family: 'Poppins' ;
+    /* font-weight: 100; */
+    margin-top: 0.5em;
+    margin-left: 3px;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+}
+.darkModeBg{
+    padding-top: 7px;
+   
+   
+}
     .darkModeIcon{
-        height:7px;
-        width:7px;
-       
+        height:17px;
+        width:22px;
+       padding: 3px 5px 1px;
     }
  
 }
