@@ -1,0 +1,24 @@
+---
+layout: layout.liquid
+---
+<div class="titlePosition">
+    <text class="indexSubtitle">
+        Filter posts by tag - <br>
+    </text>
+</div>
+<div class="btnSize">
+    <button class="btn btn-lg red"><a href="/tagPages/">All</a></button>
+    {% for tag in collections.tagList %}
+    <button class="btn btn-lg red"><a href="/tagPages/{{tag}}.html">{{ tag }}</a></button>
+    {% endfor %}
+</div>
+<div class="center_blog_post">
+
+    <div class="mainPost date">
+         <h3 class="title">{{mainTag}}</h3>
+ 
+        {{content}}
+        
+
+    </div>
+</div>

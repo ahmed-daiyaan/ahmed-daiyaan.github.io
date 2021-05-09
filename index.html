@@ -1,14 +1,10 @@
 ---
-layout: base.liquid
+layout: mainPage.liquid
 postDate: Recent Posts
 indexTitle: Hi, I'm Daiyaan.
 subtitle: Student & Pop music nerd. Sharing what I learn.
 ---
-
-{% for post in collections.posts %}
+{%for post in collections.posts%}
    <a class="link" href="{{ post.url }}"><span>{{ post.data.pageTitle }}</span></a>
     <div class="postDescription">{{post.data.postDescription}}</div>
-       <!-- <div class="postDate">{{ post.date | date: "%B %d, %Y" }}</div> -->
-    <!-- <hr> -->
-    <!-- <hr class="zag" style="margin: 20px 0px"> -->
 {% endfor %}
