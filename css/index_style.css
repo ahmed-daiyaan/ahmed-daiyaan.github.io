@@ -403,10 +403,10 @@ a{
       padding-top: 6vw;
   }
   #navBar ul a{
-      font-size: 13px;
+      font-size: 11px;
       
       line-height: auto;
-      padding: 0px 5px;
+      padding: 0px 2px;
   }
   #mainTitle{
       text-shadow: 2px 2px 0px var(--title-shadow);
@@ -420,7 +420,7 @@ a{
     width: 35px;
   }
   .logo_text{
-      font-size: 1em;
+      font-size: 0.5em;
   }
   .titlePosition {
     
