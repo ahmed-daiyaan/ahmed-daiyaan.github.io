@@ -264,6 +264,9 @@ text-decoration: none;
 
 
 body {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
     background-color: var(--background-color);
     margin: 0px;
 }
@@ -497,14 +500,15 @@ button{
 }
 
 .footerPosition{
-     border:1px black solid;
-    position:relative;
+    min-height:50px;
+    /* position:relative; */
     /* top: 103vh; */
     width: 100%;
     margin: none;
     /* height: 3vh; */
 }
 .footer{
+     margin-top:auto;
     /* height:3vh; */
      background-color: var(--blog-background);
     margin:none;
@@ -525,14 +529,25 @@ button{
     font-size: 1.1em;
 }
 
+/* .content{
+    min-height: calc(100vh - 10px);
+
+} */
 
 
 @media screen and (max-width : 480px) {
   .center_blog_post{
-      width:90%;
-      padding-left: 10%;
+      width:97%;
+      padding-left: 3%;
       padding-right: 0%;
       padding-top: 6vw;
+  }
+  
+  .footer{
+      font-size: 0.7em;
+  }
+  .footerPosition{
+      margin-top:auto;
   }
   #navBar ul a{
       font-size: 11px;
@@ -563,6 +578,7 @@ button{
     }
     .mainPost .title.specialTitle{
     font-size: 1.1em;
+    top:0;
     
 }
     #mainIndexTitle{
@@ -590,7 +606,7 @@ button{
     }
     .mainPost .title{
         font-size: 2.5vw;
-        /* top: -1.5vw; */
+        top:-3px
         
     }
      .link span{
