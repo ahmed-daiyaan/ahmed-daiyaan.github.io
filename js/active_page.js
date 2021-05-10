@@ -12,13 +12,26 @@ else {
 function onLoadHandler() {
   quote_generator();
   var btns = document.getElementsByClassName("menu-item");
-  for (var i = 0; i < 5; i++) {
-    btns[i].addEventListener("click", function () {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
-  };
+  console.log(this.page.url);
+  // var page = window.location.href;
+  // if (page.endsWith(".tech") || page.endsWith(".tech/") || page.endsWith("index.html")
+  // ){
+  //   var current = document.getElementsByClassName("active");
+  //     current[0].className = current[0].className.replace(" active", "");
+  //     this.className += " active";
+  // }
+  // console.log(this.page.url);
+  // if (this.page.url.contains("/tagPages/")) {
+  //   btns[1].className += " active";
+    
+  // }
+  // for (var i = 0; i < 4; i++) {
+  //   btns[i].addEventListener("click", function () {
+  //     var current = document.getElementsByClassName("active");
+  //     current[0].className = current[0].className.replace(" active", "");
+  //     this.className += " active";
+  //   });
+  // };
 };
 function toggle_theme() {
     if (htmlEl.dataset.theme == 'dark') {
