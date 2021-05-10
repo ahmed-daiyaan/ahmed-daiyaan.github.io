@@ -1,0 +1,7 @@
+---
+layout: false
+permalink: .htaccess
+---
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^daitrying.tech [NC]
+RewriteRule ^(.*)$ http://www.daitrying.tech/$1 [L,R=301]

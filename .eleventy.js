@@ -3,6 +3,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy('logo')
     eleventyConfig.addPassthroughCopy('js')
     eleventyConfig.addPassthroughCopy('quotes')
+    // eleventyConfig.addPassthroughCopy('robots.txt')
      eleventyConfig.addCollection("myPosts", function(collection) {
         return collection.getFilteredByGlob("/posts/*.md");
     });

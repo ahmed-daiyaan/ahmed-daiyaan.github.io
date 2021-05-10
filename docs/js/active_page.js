@@ -12,26 +12,16 @@ else {
 function onLoadHandler() {
   quote_generator();
   var btns = document.getElementsByClassName("menu-item");
-  console.log(this.page.url);
-  // var page = window.location.href;
-  // if (page.endsWith(".tech") || page.endsWith(".tech/") || page.endsWith("index.html")
-  // ){
-  //   var current = document.getElementsByClassName("active");
-  //     current[0].className = current[0].className.replace(" active", "");
-  //     this.className += " active";
-  // }
-  // console.log(this.page.url);
-  // if (this.page.url.contains("/tagPages/")) {
-  //   btns[1].className += " active";
-    
-  // }
-  // for (var i = 0; i < 4; i++) {
-  //   btns[i].addEventListener("click", function () {
-  //     var current = document.getElementsByClassName("active");
-  //     current[0].className = current[0].className.replace(" active", "");
-  //     this.className += " active";
-  //   });
-  // };
+  console.log(window.location.href);
+  var page = window.location.href;
+
+    if (page.includes("tagPages/") || page.includes("posts/") )  {
+      btns[1].className += " active";
+    }
+    else {
+      btns[0].className += " active";
+  }
+
 };
 function toggle_theme() {
     if (htmlEl.dataset.theme == 'dark') {

@@ -403,7 +403,7 @@ a{
 .mainPost {
     border: 2px solid var(--text-color);
     background: var(--blog-background);
-    font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:"Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 0px 15px 20px;
     position: relative;
     color: var(--text-color);
