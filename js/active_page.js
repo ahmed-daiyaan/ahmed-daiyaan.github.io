@@ -1,6 +1,5 @@
 var htmlEl;
 htmlEl = document.getElementsByTagName('html')[0];
-console.log(htmlEl);
 var currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 console.log(currentTheme);
 if (currentTheme==null) {
@@ -19,7 +18,7 @@ function onLoadHandler() {
       btns[1].className += " active";
     }
     else if (page.includes("get-in-touch")) {
-      btns[2].className += "active";
+      btns[2].className += " active";
   }
     else {
       btns[0].className += " active";
