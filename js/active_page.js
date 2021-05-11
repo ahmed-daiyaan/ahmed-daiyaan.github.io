@@ -18,6 +18,9 @@ function onLoadHandler() {
     if (page.includes("tagPages/") || page.includes("posts/") )  {
       btns[1].className += " active";
     }
+    else if (page.includes("get-in-touch")) {
+      btns[2].className += "active";
+  }
     else {
       btns[0].className += " active";
   }
