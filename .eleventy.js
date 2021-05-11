@@ -1,3 +1,5 @@
+'use strict'
+const format = require('date-fns/format')
 module.exports = (eleventyConfig) => {
     eleventyConfig.addPassthroughCopy('css')
     eleventyConfig.addPassthroughCopy('logo')
@@ -7,6 +9,9 @@ module.exports = (eleventyConfig) => {
      eleventyConfig.addCollection("myPosts", function(collection) {
         return collection.getFilteredByGlob("/posts/*.md");
     });
+    eleventyConfig.addFilter('date', function (date, dateFormat) {
+    return format(date, dateFormat)
+  })
      eleventyConfig.addCollection("tagList", collection => {
     const tagsSet = new Set();
     collection.getAll().forEach(item => {

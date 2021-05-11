@@ -1,0 +1,70 @@
+--------
+permalink: /sitemap.xml
+--------
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>/posts/hosting-a-eleventy-website-made-from-github-pages-of-vit-chennai-how-i-conquered-this.html</loc>
+    <lastmod>2021-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>/tagPages/</loc>
+    <lastmod>2021-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>/tagPages/flutter.html</loc>
+    <lastmod>2021-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>/tagPages/linux.html</loc>
+    <lastmod>2021-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>/tagPages/css.html</loc>
+    <lastmod>2021-05-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>/posts/what-is-the-best-way-to-dismantle-a-keyboard.html</loc>
+    <lastmod>2021-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>/get-in-touch/</loc>
+    <lastmod>2021-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>/robots.txt</loc>
+    <lastmod>2021-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
