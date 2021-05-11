@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>/posts/hosting-a-eleventy-website-made-from-github-pages-of-vit-chennai-how-i-conquered-this.html</loc>
+    <loc>https://daitrying.tech/posts/hosting-a-eleventy-website-made-from-github-pages-of-vit-chennai-how-i-conquered-this.html</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>/tagPages/</loc>
+    <loc>https://daitrying.tech/tagPages/</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>/tagPages/flutter.html</loc>
+    <loc>https://daitrying.tech/tagPages/flutter.html</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>/tagPages/linux.html</loc>
+    <loc>https://daitrying.tech/tagPages/linux.html</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>/</loc>
+    <loc>https://daitrying.tech/</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>/tagPages/css.html</loc>
+    <loc>https://daitrying.tech/tagPages/css.html</loc>
     <lastmod>2021-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>/posts/what-is-the-best-way-to-dismantle-a-keyboard.html</loc>
+    <loc>https://daitrying.tech/posts/what-is-the-best-way-to-dismantle-a-keyboard.html</loc>
     <lastmod>2021-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>/get-in-touch/</loc>
+    <loc>https://daitrying.tech/get-in-touch/</loc>
     <lastmod>2021-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>/robots.txt</loc>
+    <loc>https://daitrying.tech/robots.txt</loc>
     <lastmod>2021-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
